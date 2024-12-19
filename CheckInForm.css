@@ -1,0 +1,49 @@
+.checkin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-left: 20px;
+  }
+  
+  .checkin-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .checkin-title {
+    color: #2196f3;
+  }
+  
+  .checkin-label {
+    display: block;
+    margin-top: 1rem;
+  }
+  
+  .checkin-slider {
+    width: 100%;
+  }
+  
+  .checkin-select,
+  .checkin-textarea {
+    width: 100%;
+    margin-top: 0.5rem;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .checkin-button {
+    margin-top: 1.5rem;
+    padding: 0.8rem;
+    background: #2196f3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  

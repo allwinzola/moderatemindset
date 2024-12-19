@@ -1,0 +1,63 @@
+.dashboard-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.checkin-titles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.checkin-title {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.checkin-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
+.checkin-item {
+  font-size: 1rem;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.no-checkins {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+@media (max-width: 767px) {
+  .dashboard-title {
+    font-size: 1.5rem;
+  }
+
+  .checkin-titles,
+  .checkin-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .checkin-title,
+  .checkin-item {
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+  }
+
+  .checkin-item {
+    padding-left: 1rem;
+  }
+
+  .no-checkins {
+    font-size: 1rem;
+  } 
+}
+
+
+  
